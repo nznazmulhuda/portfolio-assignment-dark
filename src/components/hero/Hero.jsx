@@ -27,11 +27,10 @@ export default function Hero() {
 						Designer
 					</h1>
 
-					<p className="max-w-[698px] h-[101px] text-black font-nav-bar-text-21 font-normal text-justify mt-6">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-						vitae eveniet quos eligendi, aliquid repellendus commodi impedit
-						dolor fugiat delectus perspiciatis error voluptas minus dicta
-						ducimus provident praesentium fuga totam eaque asperiores iste.
+					<p className="max-w-[698px] h-[101px] text-black font-nav-bar-text-21 font-normal text-justify mt-6 text-[21px]">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+						praesentium quibusdam, adipisci ipsam vero, nulla in accusamus rem
+						iure modi provident nihil.
 					</p>
 
 					<Btn title={"Hire Me"} />
