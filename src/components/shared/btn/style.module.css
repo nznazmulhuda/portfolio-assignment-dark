@@ -1,0 +1,23 @@
+.btn {
+	height: 52px;
+	width: 188px;
+	box-sizing: border-box;
+	background-color: #fd6f00;
+	border-radius: 5px;
+	position: relative;
+}
+
+.text_wrapper {
+	color: #ffffff;
+	font-family: "Poppins-Regular", Helvetica;
+	font-size: 21px;
+	font-weight: 400;
+	top: 16px;
+	left: 53px;
+	letter-spacing: 0.63px;
+	line-height: normal;
+	position: absolute;
+	text-align: center;
+	width: 83px;
+	white-space: nowrap;
+}
