@@ -1,6 +1,7 @@
 import Hero from "./components/hero/Hero";
 import Hero2 from "./components/hero2/Hero2";
 import { Navbar } from "./components/navbar/Navbar";
+import Projects from "./components/projects/Projects";
 import Services from "./components/services/Services";
 
 export default function App() {
@@ -18,6 +19,10 @@ export default function App() {
 
 			<section className="mt-[139px]">
 				<Services />
+			</section>
+
+			<section className="mt-[139px]">
+				<Projects />
 			</section>
 		</main>
 	);
