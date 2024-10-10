@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.all-\[unset\] {
+		all: unset;
+	}
+}
+
+:root {
+	--bg-gray: rgba(251, 251, 251, 1);
+	--foundation-blackblack-100: rgba(176, 176, 176, 1);
+	--foundation-blackblack-200: rgba(138, 138, 138, 1);
+	--foundation-blackblack-300: rgba(84, 84, 84, 1);
+	--foundation-blackblack-400: rgba(51, 51, 51, 1);
+	--foundation-blackblack-50: rgba(230, 230, 230, 1);
+	--foundation-blackblack-500: rgba(0, 0, 0, 1);
+	--foundation-blackblack-600: rgba(0, 0, 0, 1);
+	--foundation-blackblack-700: rgba(0, 0, 0, 1);
+	--foundation-blackblack-800: rgba(0, 0, 0, 1);
+	--foundation-blackblack-900: rgba(0, 0, 0, 1);
+	--foundation-orangeorange-100: rgba(255, 207, 176, 1);
+	--foundation-orangeorange-200: rgba(255, 183, 138, 1);
+	--foundation-orangeorange-300: rgba(255, 150, 84, 1);
+	--foundation-orangeorange-400: rgba(255, 130, 51, 1);
+	--foundation-orangeorange-50: rgba(255, 239, 230, 1);
+	--foundation-orangeorange-500: rgba(255, 99, 0, 1);
+	--foundation-orangeorange-600: rgba(232, 90, 0, 1);
+	--foundation-orangeorange-700: rgba(181, 70, 0, 1);
+	--foundation-orangeorange-800: rgba(140, 54, 0, 1);
+	--foundation-orangeorange-900: rgba(107, 42, 0, 1);
+	--h2-65-font-family: "Poppins", Helvetica;
+	--h2-65-font-size: 65px;
+	--h2-65-font-style: normal;
+	--h2-65-font-weight: 600;
+	--h2-65-letter-spacing: 1.95px;
+	--h2-65-line-height: normal;
+	--h3-32-font-family: "Poppins", Helvetica;
+	--h3-32-font-size: 32px;
+	--h3-32-font-style: normal;
+	--h3-32-font-weight: 700;
+	--h3-32-letter-spacing: 0.96px;
+	--h3-32-line-height: normal;
+	--main-color: rgba(253, 111, 0, 1);
+	--main-heading-h1-font-family: "Poppins", Helvetica;
+	--main-heading-h1-font-size: 100px;
+	--main-heading-h1-font-style: normal;
+	--main-heading-h1-font-weight: 700;
+	--main-heading-h1-letter-spacing: 3px;
+	--main-heading-h1-line-height: 120.00000476837158%;
+	--nav-bar-text-21-font-family: "Poppins", Helvetica;
+	--nav-bar-text-21-font-size: 21px;
+	--nav-bar-text-21-font-style: normal;
+	--nav-bar-text-21-font-weight: 400;
+	--nav-bar-text-21-letter-spacing: 0.63px;
+	--nav-bar-text-21-line-height: normal;
+	--small-heading-24-font-family: "Poppins", Helvetica;
+	--small-heading-24-font-size: 24px;
+	--small-heading-24-font-style: normal;
+	--small-heading-24-font-weight: 600;
+	--small-heading-24-letter-spacing: 0.72px;
+	--small-heading-24-line-height: normal;
+}
