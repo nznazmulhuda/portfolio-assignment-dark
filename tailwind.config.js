@@ -35,6 +35,6 @@ export default {
 				"small-heading-24": "var(--small-heading-24-font-family)",
 			},
 		},
-		plugins: [],
+		plugins: [import("daisyui")],
 	},
 };
