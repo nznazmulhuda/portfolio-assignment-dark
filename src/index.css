@@ -63,6 +63,10 @@
 	--small-heading-24-line-height: normal;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 }

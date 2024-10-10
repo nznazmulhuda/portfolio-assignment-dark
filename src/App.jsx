@@ -12,31 +12,29 @@ export default function App() {
 		<main>
 			<Navbar />
 
-			<section className="mt-[100px]">
+			<section id="home" className="mt-[100px]">
 				<Hero />
 			</section>
 
-			<section className="mt-[69.52px]">
+			<section id="about-me" className="mt-[69.52px]">
 				<Hero2 />
 			</section>
 
-			<section className="mt-[139px]">
+			<section id="services" className="mt-[139px]">
 				<Services />
 			</section>
 
-			<section className="mt-[139px]">
+			<section id="projects" className="mt-[139px]">
 				<Projects />
 			</section>
 
-			<section className="mt-[139px]">
+			<section id="testimonials" className="mt-[139px]">
 				<Testimonial />
 			</section>
 
-			<section className="mt-[139px]">
+			<section id="contact" className="mt-[139px]">
 				<Design />
 			</section>
-
-
 
 			<Footer />
 		</main>

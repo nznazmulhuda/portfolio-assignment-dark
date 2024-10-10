@@ -4,27 +4,27 @@ import subtract from "./subtract.svg";
 export const Navbar = () => {
 	const links = [
 		{
-			path: "#",
+			path: "#home",
 			title: "Home",
 		},
 		{
-			path: "#",
+			path: "#about-me",
 			title: "About Me",
 		},
 		{
-			path: "#",
+			path: "#services",
 			title: "Services",
 		},
 		{
-			path: "#",
+			path: "#projects",
 			title: "Projects",
 		},
 		{
-			path: "#",
+			path: "#testimonials",
 			title: "Testimonials",
 		},
 		{
-			path: "#",
+			path: "#contact",
 			title: "Contact",
 		},
 	];
