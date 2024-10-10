@@ -1,4 +1,4 @@
-import heroImage from "../../assets/hero2.svg";
+import heroImage from "../../assets/hero2.png";
 import SliderSize from "../shared/slider/Slider";
 
 function Hero2() {

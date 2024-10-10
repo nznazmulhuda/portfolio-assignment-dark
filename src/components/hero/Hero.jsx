@@ -1,9 +1,9 @@
 import { Btn } from "../shared/btn/Btn";
-import hero from "../../assets/hero.svg";
-import facebook from "../../assets/facebook.svg";
-import insta from "../../assets/instagram.svg";
-import linkedin from "../../assets/linkedin.svg";
-import twiter from "../../assets/twitter.svg";
+import hero from "../../assets/hero.png";
+import facebook from "../../assets/fb.png";
+import insta from "../../assets/in.png";
+import linkedin from "../../assets/ln.png";
+import twiter from "../../assets/tw.png";
 
 export default function Hero() {
 	return (
