@@ -1,9 +1,14 @@
 import { Btn } from "../shared/btn/Btn";
+import hero from "../../assets/hero.svg";
+import facebook from "../../assets/facebook.svg";
+import insta from "../../assets/instagram.svg";
+import linkedin from "../../assets/linkedin.svg";
+import twiter from "../../assets/twitter.svg";
 
 export default function Hero() {
 	return (
 		<>
-			<main className="max-w-[1400px] h-[617.24px] border border-green-500 mx-auto">
+			<main className="max-w-[1400px] h-[617.24px] mx-auto flex items-end justify-between">
 				{/* left part */}
 				<aside className="w-[714px] h-full flex flex-col justify-end items-start py-[25.24px] px-[7px]">
 					<h6 className="font-small-heading-24 text-black font-semibold text-[24px]">
@@ -23,14 +28,41 @@ export default function Hero() {
 					</h1>
 
 					<p className="max-w-[698px] h-[101px] text-black font-nav-bar-text-21 font-normal text-justify mt-6">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem vitae eveniet quos eligendi, aliquid repellendus commodi impedit dolor fugiat delectus perspiciatis error voluptas minus dicta ducimus provident praesentium fuga totam eaque asperiores iste.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+						vitae eveniet quos eligendi, aliquid repellendus commodi impedit
+						dolor fugiat delectus perspiciatis error voluptas minus dicta
+						ducimus provident praesentium fuga totam eaque asperiores iste.
 					</p>
 
 					<Btn title={"Hire Me"} />
 				</aside>
 
 				{/* right part */}
-				<aside></aside>
+				<aside>
+					<div className="relative">
+						<img src={hero} alt="hero-image" />
+
+						<div className="w-[374px] h-[83px] bg-[rgba(253,111,0,0.6)] absolute top-[78px] left-1/2 -translate-x-1/2"></div>
+
+						<div className="flex items-center gap-[25.03px] justify-end absolute left-1/2 -translate-x-1/2 mt-5">
+							<a href="http://" target="_blank" rel="noopener noreferrer">
+								<img src={facebook} alt="facebook" />
+							</a>
+
+							<a href="http://" target="_blank" rel="noopener noreferrer">
+								<img src={twiter} alt="twiter" />
+							</a>
+
+							<a href="http://" target="_blank" rel="noopener noreferrer">
+								<img src={insta} alt="instagram" />
+							</a>
+
+							<a href="http://" target="_blank" rel="noopener noreferrer">
+								<img src={linkedin} alt="linkedin" />
+							</a>
+						</div>
+					</div>
+				</aside>
 			</main>
 		</>
 	);
