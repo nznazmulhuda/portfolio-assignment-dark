@@ -1,4 +1,5 @@
 import Design from "./components/design/Design";
+import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import Hero2 from "./components/hero2/Hero2";
 import { Navbar } from "./components/navbar/Navbar";
@@ -30,7 +31,7 @@ export default function App() {
 				<Design />
 			</section>
 
-			<footer className="mt-[139px]"></footer>
+			<Footer />
 		</main>
 	);
 }

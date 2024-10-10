@@ -1,4 +1,3 @@
-import { Btn } from "../shared/btn/Btn";
 import SectionTitleDes from "../shared/sectionTitleDes/SectionTitleDes";
 
 function Design() {
