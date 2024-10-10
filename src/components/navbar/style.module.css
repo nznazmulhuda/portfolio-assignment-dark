@@ -1,0 +1,124 @@
+.about-me {
+	height: 67px;
+	width: 1420px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.about-me .group {
+	height: 67px;
+	position: relative;
+}
+
+.about-me .logo {
+	height: 67px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 279px;
+}
+
+.about-me .mumair {
+	color: transparent;
+	font-family: "Montserrat-Bold", Helvetica;
+	font-size: 48px;
+	font-weight: 400;
+	left: 87px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 3px;
+}
+
+.about-me .text-wrapper {
+	color: #1e1e1e;
+	font-weight: 700;
+}
+
+.about-me .span {
+	color: #535353;
+	font-family: "Montserrat-Regular", Helvetica;
+}
+
+.about-me .subtract {
+	height: 67px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 67px;
+}
+
+.about-me .frame {
+	align-items: flex-start;
+	display: inline-flex;
+	gap: 12px;
+	left: 401px;
+	position: absolute;
+	top: 7px;
+}
+
+.about-me .div-wrapper {
+	align-items: flex-start;
+	background-color: #ffffff;
+	display: inline-flex;
+	flex: 0 0 auto;
+	gap: 10px;
+	padding: 10px 14px;
+	position: relative;
+}
+
+.about-me .div {
+	color: #000000;
+	font-family: var(--nav-bar-text-21-font-family);
+	font-size: var(--nav-bar-text-21-font-size);
+	font-style: var(--nav-bar-text-21-font-style);
+	font-weight: var(--nav-bar-text-21-font-weight);
+	letter-spacing: var(--nav-bar-text-21-letter-spacing);
+	line-height: var(--nav-bar-text-21-line-height);
+	margin-top: -1px;
+	position: relative;
+	width: fit-content;
+}
+
+.about-me .text-wrapper-2 {
+	color: #000000;
+	font-family: "Poppins-Regular", Helvetica;
+	font-size: 21px;
+	font-weight: 400;
+	letter-spacing: 0.63px;
+	line-height: normal;
+	margin-top: -1px;
+	position: relative;
+	width: fit-content;
+}
+
+.about-me .overlap-group-wrapper {
+	height: 52px;
+	left: 1232px;
+	position: absolute;
+	top: 7px;
+	width: 190px;
+}
+
+.about-me .overlap-group {
+	background-color: #fd6f00;
+	border-radius: 5px;
+	height: 52px;
+	position: relative;
+	width: 188px;
+}
+
+.about-me .text-wrapper-3 {
+	color: #ffffff;
+	font-family: "Poppins-Regular", Helvetica;
+	font-size: 21px;
+	font-weight: 400;
+	left: 18px;
+	letter-spacing: 0.63px;
+	line-height: normal;
+	position: absolute;
+	text-align: justify;
+	top: 17px;
+	white-space: nowrap;
+	width: 152px;
+}
