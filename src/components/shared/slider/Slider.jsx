@@ -7,7 +7,7 @@ export default function SliderSize({ value, title }) {
 		<>
 			<label
 				htmlFor="title"
-				className="text-black font-small-heading-24 font-semibold text-[24px] mt-[25px] mb-[18px]"
+				className="text-white font-small-heading-24 font-semibold text-[24px] mt-[25px] mb-[18px]"
 			>
 				{title}
 			</label>

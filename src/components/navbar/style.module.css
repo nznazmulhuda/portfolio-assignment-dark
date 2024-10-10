@@ -31,13 +31,14 @@
 }
 
 .about-me .text-wrapper {
-	color: #1e1e1e;
+	color: #fbfbfb;
 	font-weight: 700;
 }
 
 .about-me .span {
-	color: #535353;
+	color: #fbfbfb;
 	font-family: "Montserrat-Regular", Helvetica;
+	font-weight: 400;
 }
 
 .about-me .subtract {
@@ -59,7 +60,6 @@
 
 .about-me .div-wrapper {
 	align-items: flex-start;
-	background-color: #ffffff;
 	display: inline-flex;
 	flex: 0 0 auto;
 	gap: 10px;
@@ -81,7 +81,7 @@
 }
 
 .about-me .text-wrapper-2 {
-	color: #000000;
+	color: #fff;
 	font-family: "Poppins-Regular", Helvetica;
 	font-size: 21px;
 	font-weight: 400;

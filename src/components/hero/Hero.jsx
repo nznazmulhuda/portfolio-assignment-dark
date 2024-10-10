@@ -1,9 +1,9 @@
 import { Btn } from "../shared/btn/Btn";
 import hero from "../../assets/hero.png";
-import facebook from "../../assets/fb.png";
-import insta from "../../assets/in.png";
-import linkedin from "../../assets/ln.png";
-import twiter from "../../assets/tw.png";
+import facebook from "../../assets/fb_w.png";
+import insta from "../../assets/in_w.png";
+import linkedin from "../../assets/ln_w.png";
+import twiter from "../../assets/tw_w.png";
 
 export default function Hero() {
 	return (
@@ -11,7 +11,7 @@ export default function Hero() {
 			<main className="max-w-[1400px] h-[617.24px] mx-auto flex items-end justify-between">
 				{/* left part */}
 				<aside className="w-[714px] h-full flex flex-col justify-end items-start py-[25.24px] px-[7px]">
-					<h6 className="font-small-heading-24 text-black font-semibold text-[24px]">
+					<h6 className="font-small-heading-24 text-white font-semibold text-[24px]">
 						Hi I am{" "}
 					</h6>
 
@@ -19,15 +19,15 @@ export default function Hero() {
 						Muhammad Umair
 					</h5>
 
-					<h1 className="font-main-heading-h1 text-[100px] font-bold leading-[120px]">
+					<h1 className="font-main-heading-h1 text-[100px] font-bold leading-[120px] text-white">
 						UI & UX
 					</h1>
 
-					<h1 className="font-main-heading-h1 text-[100px] font-bold leading-[120px] ml-[230px]">
+					<h1 className="font-main-heading-h1 text-[100px] font-bold leading-[120px] ml-[230px] text-white">
 						Designer
 					</h1>
 
-					<p className="max-w-[698px] h-[101px] text-black font-nav-bar-text-21 font-normal text-justify mt-6 text-[21px]">
+					<p className="max-w-[698px] h-[101px] text-white font-nav-bar-text-21 font-normal text-justify mt-6 text-[21px]">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
 						praesentium quibusdam, adipisci ipsam vero, nulla in accusamus rem
 						iure modi provident nihil.

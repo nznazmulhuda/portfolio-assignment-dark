@@ -11,7 +11,7 @@ function ProjectCard({ img, category, title }) {
 				{category}
 			</h3>
 
-			<h1 className="text-black font-small-heading-24 text-[24px] font-bold">
+			<h1 className="text-white font-small-heading-24 text-[24px] font-bold">
 				{title}
 			</h1>
 		</div>

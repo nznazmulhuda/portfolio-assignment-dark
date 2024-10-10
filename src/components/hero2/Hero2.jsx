@@ -13,11 +13,11 @@ function Hero2() {
 
 			{/* right side */}
 			<aside className="w-[753px] h-full flex flex-col justify-center">
-				<h1 className="font-h2-65 font-semibold text-[65px] text-black">
+				<h1 className="font-h2-65 font-semibold text-[65px] text-white">
 					About Me
 				</h1>
 
-				<p className="w-[756px] h-[101px] text-black font-nav-bar-text-21 text-[21px] font-normal mt-[15px]">
+				<p className="w-[756px] h-[101px] text-white font-nav-bar-text-21 text-[21px] font-normal mt-[15px]">
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
 					dolores mollitia doloremque officia sed rem accusantium quae eos,
 					itaque in quibusdam culpa, nihil dolore? Aperiam quaerat commodi

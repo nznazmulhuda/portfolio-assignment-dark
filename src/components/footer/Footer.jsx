@@ -1,8 +1,8 @@
 import subtract from "../../assets/logo.png";
-import facebook from "../../assets/fb.png";
-import insta from "../../assets/in.png";
-import linkedin from "../../assets/ln.png";
-import twiter from "../../assets/tw.png";
+import facebook from "../../assets/fb_w.png";
+import insta from "../../assets/in_w.png";
+import linkedin from "../../assets/ln_w.png";
+import twiter from "../../assets/tw_w.png";
 
 function Footer() {
 	const links = [
@@ -34,14 +34,14 @@ function Footer() {
 
 	return (
 		<>
-			<footer className="mt-[139px] pt-[109px] pb-[62px] flex flex-col items-center bg-[#F8F8F8]">
+			<footer className="mt-[139px] pt-[109px] pb-[62px] flex flex-col items-center">
 				{/* logo */}
 				<a href="#" className="flex items-center gap-[20px]">
 					<img alt="Subtract" src={subtract} />
 
 					<p className="text-[48px] font-">
-						<span className="text-[#1E1E1E] font-bold">M</span>
-						<span className="text-[#545454]">umair </span>
+						<span className="text-[#FBFBFB] font-bold">M</span>
+						<span className="text-[#FBFBFB]">umair </span>
 					</p>
 				</a>
 
@@ -49,7 +49,7 @@ function Footer() {
 				<div className="mt-[65px] flex items-center gap-[12px ]">
 					{links.map((link) => (
 						<a key={link.path} href={link.path}>
-							<button className="px-[14px] py-[10px] text-black font-nav-bar-text-21 text-[21px]">
+							<button className="px-[14px] py-[10px] text-white font-nav-bar-text-21 text-[21px]">
 								{link.title}
 							</button>
 						</a>
@@ -77,7 +77,7 @@ function Footer() {
 			</footer>
 
 			{/* copyright */}
-			<div className="w-full bg-[#545454] text-center py-[26px] text-white">
+			<div className="w-full bg-[#121212] text-center py-[26px] text-white">
 				&copy; 2023 <span className="text-[#FD6F00] font-bold">Mumair</span> All
 				Rights Reserved , Inc.
 			</div>
